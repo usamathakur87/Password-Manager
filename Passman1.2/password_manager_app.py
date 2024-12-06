@@ -34,7 +34,7 @@ conn.commit()
 
 # Constants
 EMAIL_ID = "it@alfauz.com.pk"
-EMAIL_PASSWORD = "As@npw786"
+EMAIL_PASSWORD = input(EMAIL_PASSWORD)
 SMTP_SERVER = "mail.alfauz.com.pk"
 SMTP_PORT = 587
 PASSWORD_EXPIRY_DAYS = 30
